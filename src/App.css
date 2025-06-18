@@ -1,0 +1,66 @@
+/* Header Styles */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #6693ee;
+    
+}
+.navlinks{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    list-style-type: none;
+}
+.navlinks ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.navlinks li{
+    display: inline;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navlinks a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+.navlinks a:hover{
+    text-decoration: underline;
+}
+.navlinks a.active{
+    text-decoration: underline;
+}
+.navlinks a.active:hover{
+    text-decoration: none;
+}
+.btn{
+    color: white;
+    background-color: tomato;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: darkorange;
+}
+/* Main content styles */
+
+
+/* Footer styles */
+.footer{
+    background-color: #6693ee;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
